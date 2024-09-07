@@ -21,5 +21,3 @@ Este projeto tem como objetivo reunir informações interessantes sobre diversas
 ### Próximos Passos:
 * Expansão da base de dados: Incluir mais raças de gatos e informações detalhadas.
 * Funcionalidades adicionais: Implementar filtros de pesquisa, imagens das raças e um fórum para discussão.
-
-Acesse a aplicação: https://cats-plum.vercel.app/
