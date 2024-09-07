@@ -9,7 +9,7 @@ body {
     background-position: center center; /* Centraliza a imagem no elemento */
     height: 100px; /* Define a altura do cabeçalho */
     background-image:
-linear-gradient(rgba(0, 0, 0, 0.728),rgba(0,0,0,0.527)), url('imagens/gato.avif');
+linear-gradient(rgba(0, 0, 0, 0.728),rgba(0,0,0,0.527)), url('gato.avif');
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     flex: 0;
