@@ -13,7 +13,4 @@ Este projeto tem como objetivo reunir informações interessantes sobre diversas
    * **CSS:** Estilização da página, deixando ela com uma cara felininha!
    * **JavaScript:** Lógica da aplicação, responsável pela pesquisa e exibição dos resultados.
 
-### Como usar
-1. **Clone o repositório:**
-   ```bash
-   git clone https://seu-repositorio.git
+Acesse a aplicação: https://cats-plum.vercel.app/
