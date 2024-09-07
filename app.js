@@ -42,7 +42,7 @@ for (let dado of dados) {
 }
 
 if (!resultados) {
-    resultados = "<p>Raça não encontrada :(</p>"
+    resultados = "<p>Raça não encontrada 😿</p>"
 }
 
 // Atribui os resultados gerados à seção HTML
