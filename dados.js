@@ -17,13 +17,13 @@ let dados = [
         titulo: "Frajola",
         descricao: "O Frajola, ou 'Tuxedo Cat', não é uma raça específica, mas sim um padrão de pelagem preta e branca. Esses gatos são conhecidos por serem brincalhões e sociáveis. São frequentemente associados ao famoso personagem dos desenhos animados.",
         link: "https://pt.wikipedia.org/wiki/Gato_bicolor",
-        tags: "frajolinha, gato bicolor, frajola,"
+        tags: "frajolinha, gato bicolor, frajola, gato preto e branco"
     },
     {
         titulo: "Bombaim",
         descricao: "O Bombaim (gato preto) é extremamente afetuoso e apegado aos donos, gosta de seguir pessoas pela casa e é muito sociável. Apesar da aparência selvagem, ele é calmo e adora ambientes familiares tranquilos.",
         link: "https://pt.wikipedia.org/wiki/Bombaim_(gato)",
-        tags: "gato preto, olho amarelo, boombaim, gato da sorte,"
+        tags: "gato preto, olho amarelo, boombaim, gato da sorte"
     },
     {
     titulo: "Persa",
@@ -35,7 +35,7 @@ let dados = [
     titulo: "Sphynx",
     descricao: "O Sphynx é uma raça de gato sem pelo, conhecido por sua pele macia e quente. Sua aparência única e personalidade curiosa o tornam bastante popular.",
     link: "https://pt.wikipedia.org/wiki/Sphynx",
-    tags: "gato sem pelo, sphynx, gato pelado"
+    tags: "gato sem pelo, sphynx, gato pelado, Gato sem pelo, Gato pelado"
     },
     {
     titulo: "Ragdoll",
