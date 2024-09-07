@@ -1,0 +1,123 @@
+/* Estiliza o corpo da página */
+body {
+/* Define a cor do título h1 */
+  
+    font-family: "Verdana"; /* Define a fonte padrão */
+    font-size:small;
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: cover; /* A imagem cobre toda a área do elemento */
+    background-position: center center; /* Centraliza a imagem no elemento */
+    height: 100px; /* Define a altura do cabeçalho */
+    background-image:
+linear-gradient(rgba(0, 0, 0, 0.728),rgba(0,0,0,0.527)), url('imagens/gato.avif');
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    flex: 0;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0px;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    color: #8660c3; /* cor */
+    text-shadow: 2px 2px 4px #1b1b1de8; /* Sombra preta com opacidade */
+    border: 1px solid #00000009; /* Borda preta de 2px */
+    padding: 4px; /* Espaçamento interno */
+    border-radius: 30px; /* Bordas arredondadas */
+    background-color: #00000067; /* Cor de fundo do título */
+    font-size: 2.2rem; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 2rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 25rem; /* Largura dos inputs */
+    background-color: #010101e8;
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #f3eded; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 2rem; /* Borda arredondada */
+    background-color: #13031ce9; /* Cor de fundo do botão */
+    color: #f8f1fcfa; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}  
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    color: #f1ebf6;
+    text-shadow: #d8cddbef;
+    width: 24rem; /* Largura máxima da caixa de resultados */
+    height: 22vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin: auto;
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.8rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #1a032c83; /* Cor de fundo dos itens */
+    border-radius: 0.8rem; /* Borda arredondada */
+    padding: 0.5rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(233, 224, 224, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1rem; /* Tamanho da fonte */
+    color: hwb(270 80% 15% / 0.979); /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: rgb(193, 143, 242); /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: hsla(270, 18%, 91%, 0.91); /* Cor do texto */
+    margin: 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #0d0d0e98; /* Cor de fundo do rodapé */
+    color: #d1d7e4; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 0.70rem; /* Tamanho da fonte */
+}
