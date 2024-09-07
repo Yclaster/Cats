@@ -6,7 +6,7 @@ function pesquisar() {
 
     // se campoPesquisa for uma string sem nada
     if (campoPesquisa == "") {
-        section.innerHTML = "Você esqueceu de digitar a raça :( Tente novamente."
+        section.innerHTML = "Você esqueceu de digitar a raça 😿 Tente novamente."
         return 
     }
 
