@@ -43,7 +43,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 25rem; /* Largura dos inputs */
+    width: 30rem; /* Largura dos inputs */
     background-color: #010101e8;
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
