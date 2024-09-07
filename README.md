@@ -13,4 +13,13 @@ Este projeto tem como objetivo reunir informações interessantes sobre diversas
    * **CSS:** Estilização da página, deixando ela com uma cara felininha!
    * **JavaScript:** Lógica da aplicação, responsável pela pesquisa e exibição dos resultados.
 
+### Funcionalidades:
+* Pesquisa: Permite aos usuários pesquisar por raças de gatos de forma rápida e intuitiva.
+* Resultados detalhados: Exibe informações relevantes sobre cada raça, como descrição, características e links para mais informações.
+* Interface amigável: Possui um design clean e intuitivo, facilitando a navegação dos usuários.
+
+### Próximos Passos:
+* Expansão da base de dados: Incluir mais raças de gatos e informações detalhadas.
+* Funcionalidades adicionais: Implementar filtros de pesquisa, imagens das raças e um fórum para discussão.
+
 Acesse a aplicação: https://cats-plum.vercel.app/
